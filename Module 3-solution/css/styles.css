@@ -1,0 +1,87 @@
+#header-nav{
+	background-color: gray;
+	border-radius: 0;
+	border: 0;
+	border-top:3px solid black;
+	border-bottom:3px solid black;
+	height:70px;
+}
+#food{
+	margin-left: 10px;
+}
+@media(min-width: 769px){
+     #header-nav{
+     	border-right:3px solid black;
+     	border-left:3px solid black;
+     }
+}
+@media(max-width: 768px){
+	#page-header{
+     	margin-top: 100px;
+     }
+
+}
+.navbar-brand h1{
+	color: black;
+	font-family: 'Helvetica', sans-serif;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#nav-list{
+	border-radius: 0;
+	border:0;
+	border:2px solid black;
+}
+#nav-list div {
+  color: black;
+  text-align: center;
+}
+#nav-list div:hover {
+  background: #E7E7E7;
+}
+#nav-list div {
+  font-size: 1.8em;
+}
+li > div{
+	background-color: white;
+}
+ul > li{
+	border-bottom: 1px solid black;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+#page-header{
+	font-family: 'Oxygen',sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color:black;
+}
+section{
+	background-color: gray;
+	height: 1000px;
+}
+#chicken > h3{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	padding-top: 15px;
+}
+#chicken > p{
+	font-size: 17px;
+	color: black;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#cont{
+	width:100%;
+	margin-right:10px; 
+}	
+div.row{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
